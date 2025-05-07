@@ -23,7 +23,7 @@ const Contacts = () => {
         </div>
         <div className='flex flex-col w-full justify-center items-center'>
           <div className='bg-[var(--primary-green)] w-[70px] h-[70px] rounded-full'>
-            <MdPlace size={40} color='white' className='m-auto mt-3' />
+            <MdEmail size={40} color='white' className='m-auto mt-3' />
           </div>
           <p className='mt-2 font-semibold text-[18px]'>EMAIL</p>
           <p className='mt-2 text-[18px]'>sanitasplus@gmail.com</p>
