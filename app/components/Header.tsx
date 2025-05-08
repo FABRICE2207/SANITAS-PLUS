@@ -3,8 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
-import { FaTimes, FaBars, FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { HiBars3 } from "react-icons/hi2";
+import { LiaTimesSolid } from "react-icons/lia";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -61,8 +63,8 @@ const Header = () => {
     <div>
       {/* Pré-header */}
       <div 
-         className={`flex flex- justify-center  font-extralight text-[15px] p-2 gap-2 border-t-4 border-t-[var(--primary-green)] border-b-1 border-b-gray-300 transition-transform duration-300 ${
-          isScrolled ? "-translate-y-full" : "translate-y-0"
+         className={`flex justify-center  font-extralight  text-[15px] p-2 gap-2 border-t-4 border-t-[var(--primary-green)] border-b-1 border-b-gray-300 transition-transform duration-300 ${
+          isScrolled || isMenuOpen ? "translate-y-0 hidden" : "translate-y-0"
         }`}
       >
           <div className="flex gap-1">
@@ -71,7 +73,7 @@ const Header = () => {
           </div>
           <div className="flex gap-1">
             <FaPhoneAlt className="m-1" />
-            07 77 49 77 50
+            05 96 37 34 76
           </div>
       </div>
 
@@ -114,9 +116,9 @@ const Header = () => {
               {
                 // Si le menu est ouvert, affiche Icon FaXmark sinon FarBars
                 isMenuOpen ? (
-                  <FaTimes className="text-black text-3xl cursor-pointer" />
+                  <LiaTimesSolid className="text-black text-3xl cursor-pointer" />
                 ) : (
-                  <FaBars className="text-black text-3xl cursor-pointer" />
+                  <HiBars3 className="text-black text-3xl cursor-pointer" />
                 )
               }
             </div>
@@ -124,30 +126,29 @@ const Header = () => {
 
           {/* affiche du menu format telephone */}
           <div
-            className={`${isMenuOpen && isScrolled === window.scrollY > 50  ? "flex" : "hidden"}  w-full h-fit bg-white
-      p-4 absolute top-[70px] left-0`}
+            className={`${isMenuOpen && isScrolled === window.scrollY > 50  ? "flex" : "hidden"}  w-full h-fit
+      p-4 absolute left-0`}
             onClick={closeMenu}
           >
             
             <div
-          className="fixed top-25 right-0 w-screen h-screen bg-[#0e0d0d88] bg-opacity-30"
-        >
-          <div className="bg-white pb-2">
-            <ul className="flex flex-col justify-center items-center gap-2 w-full">
-                {navItems.map(({ link, path }) => (
-                  <Link
-                    key={path}
-                    className="text-black uppercase font-semibold cursor-pointer p-2
-                rounded-lg  hover:text-[#090674] w-full text-center"
-                    href={`#${path}`}
-                  >
-                    {link}
-                  </Link>
-                ))}
-              </ul>
-          </div>
-        </div>
-        
+              className="fixed top-15 right-0 w-screen h-screen bg-[#0e0d0d88] bg-opacity-30 transition-transform duration-300 transform scale-100"
+            >
+              <div className="bg-white pb-2 transition-transform duration-300 transform translate-y-0">
+              <ul className="flex flex-col justify-center items-center gap-2 w-full">
+                  {navItems.map(({ link, path }) => (
+                    <Link
+                      key={path}
+                      className="text-black uppercase font-semibold cursor-pointer p-2
+                  rounded-lg  hover:text-[#090674] w-full text-center"
+                      href={`#${path}`}
+                    >
+                      {link}
+                    </Link>
+                  ))}
+                </ul>
+              </div>
+            </div>   
           </div>
         </div>
       </nav>

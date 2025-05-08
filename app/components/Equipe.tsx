@@ -12,21 +12,15 @@ const Equipe = () => {
 
   const teamMembers = [
     {
-      name: "Koffi Kévin",
-      role: "Laborantin",
-      phone: "+225 01 02 03 04 05",
+      name: "Yao Koffi Kévin",
+      role: "Biologiste",
+      phone: "+225 07 77 49 77 50",
       image: "/assets/photo_test.png",
     },
     {
-      name: "Ahoua Marie",
-      role: "Infirmière",
-      phone: "+225 06 07 08 09 10",
-      image: "/assets/photo_test.png",
-    },
-    {
-      name: "Konan Jean",
-      role: "Médecin",
-      phone: "+225 11 12 13 14 15",
+      name: "Yao Koffi Kévin",
+      role: "Biologiste",
+      phone: "+225 07 77 49 77 50",
       image: "/assets/photo_test.png",
     },
   ];

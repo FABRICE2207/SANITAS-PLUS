@@ -50,7 +50,7 @@ const Activites = () => {
                   />
                   <h3 className='font-medium text-2xl mt-5 text-center'>HOSPITALISATIONS A DOMICILE</h3>
                   <p className='text-center m-5'>
-                  Après avoir reçu le protocole du clinicien, l’infirmier suivi d’une aide-soignante se chargeront de vous administrer vos soins en tout quiétude. L’aide-soignante peut rester et être permanente pour les soins sous la direction bienveillante du clinicien et de l’infirmier. 
+                  Après avoir reçu le protocole du clinicien, l’infirmier suivi d’une aide-soignante se chargeront de vous administrer vos soins en toute quiétude. L’aide-soignante peut rester et être permanente pour les soins sous la direction bienveillante du clinicien et de l’infirmier. 
                   </p>
                 </div>
               </div>
@@ -118,7 +118,7 @@ const Activites = () => {
           {/* 2 */}
           <div className='bg-[var(--primary-green)] w-full rounded-xl mb-5'
         data-aos="fade-up" data-aos-delay="400">
-          <div className='flex flex-col justify-center items-center py-12'>
+          <div className='flex flex-col justify-center items-center py-11'>
             <p className='font-semibold text-2xl text-center text-white'>COIFFEURS</p>
             <p className='mt-5 text-white text-[15px] mx-5 text-center'>On se sent toujours mieux quand on est bien coiffé dans de bonnes commodités et surtout dans l’environnement souhaité. </p>
           </div>

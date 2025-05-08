@@ -76,11 +76,11 @@ const Footer = () => {
             </div>
             <div className='flex flex-row gap-3'>
               <MdPhone size={30}/>
-              0777497750
+              +225 05 96 37 34 76
             </div>
             <div className='flex flex-row gap-3'>
               <MdPlace size={30}/>
-              Abidjan, Yopougon - Andokoi
+              Abidjan
             </div>
             
           </div>
