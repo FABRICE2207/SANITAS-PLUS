@@ -5,16 +5,16 @@ import { MdEmail, MdPhone, MdPlace } from 'react-icons/md'
 
 const Contacts = () => {
   return (
-    <div id='contacts' className='mx-15 mt-10'>
+    <div id='contacts' className='mx-10 mt-10'>
       <div className='lg:flex lg:flex-row justify-between items-center lg:gap-5'>
-        <div className='flex flex-col w-full justify-center items-center'>
+        <div className='flex flex-col w-full justify-center items-center mb-5'>
           <div className='bg-[var(--primary-green)] w-[70px] h-[70px] rounded-full'>
             <MdPlace size={40} color='white' className='m-auto mt-3' />
           </div>
           <p className='mt-2 font-semibold text-[18px]'>LOCALISATION</p>
           <p className='mt-1 text-[18px]'>Abidjan, Yopougon - Andokoi</p>
         </div>
-        <div className='flex flex-col w-full justify-center items-center'>
+        <div className='flex flex-col w-full justify-center items-center mb-5'>
           <div className='bg-[var(--primary-green)] w-[70px] h-[70px] rounded-full'>
             <MdPhone size={40} color='white' className='m-auto mt-3' />
           </div>
@@ -39,7 +39,7 @@ const Contacts = () => {
          </div>
 
          {/* Formulaire */}
-         <div className='mt-8'>
+         <div className='mt-8 w-full'>
           <div className='lg:mx-[400px]'>
           <form action="">
             <div className='flex flex-col font-extralight text-[20px]'>

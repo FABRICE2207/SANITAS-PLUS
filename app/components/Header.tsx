@@ -61,16 +61,16 @@ const Header = () => {
     <div>
       {/* Pré-header */}
       <div 
-         className={`flex justify-center font-extralight text-[18px] p-2 gap-5 border-t-4 border-t-[var(--primary-green)] border-b-1 border-b-gray-300 transition-transform duration-300 ${
+         className={`flex flex- justify-center  font-extralight text-[15px] p-2 gap-2 border-t-4 border-t-[var(--primary-green)] border-b-1 border-b-gray-300 transition-transform duration-300 ${
           isScrolled ? "-translate-y-full" : "translate-y-0"
         }`}
       >
           <div className="flex gap-1">
-            <MdEmail className="m-auto" />
+            <MdEmail className="mt-1" />
             sanitasplus@gmail.com
           </div>
           <div className="flex gap-1">
-            <FaPhoneAlt className="m-auto" />
+            <FaPhoneAlt className="m-1" />
             07 77 49 77 50
           </div>
       </div>
@@ -124,7 +124,7 @@ const Header = () => {
 
           {/* affiche du menu format telephone */}
           <div
-            className={`${isMenuOpen && isScrolled === window.scrollY > 50 ? "flex" : "hidden"}  w-full h-fit bg-white
+            className={`${isMenuOpen && isScrolled === window.scrollY > 50  ? "flex" : "hidden"}  w-full h-fit bg-white
       p-4 absolute top-[70px] left-0`}
             onClick={closeMenu}
           >

@@ -12,7 +12,7 @@ import { FaHome, FaCar } from "react-icons/fa";
 const Activites = () => {
   return (
     <div>
-      <div className="mb-10 mx-20" id="activites">
+      <div className="mb-10 mx-10" id="activites">
         <div data-aos="fade-up" data-aos-delay="700">
           <div className="flex justify-center">
             <h1 className="font-extrabold text-3xl mt-4 mb-4 text-[var(--primary-green)]">
@@ -21,7 +21,7 @@ const Activites = () => {
           </div>
 
           <div data-aos="fade-up" data-aos-delay="800">
-            <div className='mt-5 lg:flex lg:flex-row'>
+            <div className='mt-5 lg:flex lg:flex-row w-full'>
               <div className='w-full lg:h-[300px] border-r-1 border-b-1 border-[var(--primary-green)] hover:bg-[var(--primary-green)] hover:text-white transition duration-600 ease-in-out'>
                 <div className='flex flex-col justify-center items-center mt-4 font-extralight'>
                   <FaHouseMedical 
@@ -55,7 +55,7 @@ const Activites = () => {
                 </div>
               </div>
             </div>
-            <div className='lg:flex lg:flex-row'>
+            <div className='lg:flex lg:flex-row w-full'>
               <div className='w-full lg:h-[300px] border-r-1 border-[var(--primary-green)] hover:bg-[var(--primary-green)] hover:text-white transition duration-600 ease-in-out'>
                 <div className='flex flex-col justify-center items-center mt-4 font-extralight'>
                   <FaChildren 
@@ -95,7 +95,7 @@ const Activites = () => {
       </div>
 
       {/* Autres services */}
-      <div className="mb-10 mx-20">
+      <div className="mb-10 mx-10">
         <div data-aos="fade-up" data-aos-delay="100">
           <div className="flex justify-center">
             <h1 className="font-extrabold text-3xl mt-4 mb-4 text-[var(--primary-green)]">
@@ -108,7 +108,7 @@ const Activites = () => {
         py-5 gap-5'>
 
           {/* 1 */}
-        <div className='bg-[var(--primary-green)] w-full rounded-xl'
+        <div className='bg-[var(--primary-green)] w-full rounded-xl mb-5'
         data-aos="fade-up" data-aos-delay="200">
           <div className='flex flex-col justify-center items-center py-10'>
             <p className='font-semibold text-2xl text-center text-white'>ERGOTHÉRAPEUTES ET KINESITHERAPEUTES</p>
@@ -116,7 +116,7 @@ const Activites = () => {
           </div>
         </div>
           {/* 2 */}
-          <div className='bg-[var(--primary-green)] w-full rounded-xl'
+          <div className='bg-[var(--primary-green)] w-full rounded-xl mb-5'
         data-aos="fade-up" data-aos-delay="400">
           <div className='flex flex-col justify-center items-center py-12'>
             <p className='font-semibold text-2xl text-center text-white'>COIFFEURS</p>

@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Objectifs = () => {
   return (
-    <div id="objectifs">
-      <div className="mb-10 mx-20">
+    <div id="objectifs w-full">
+      <div className="mb-10 mx-10">
       <div data-aos="fade-up" data-aos-delay="680">
         <div className="flex justify-center">
           <h1 className="text-center font-extrabold text-3xl mt-4 mb-4 text-[var(--primary-green)]">

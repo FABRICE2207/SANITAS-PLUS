@@ -8,8 +8,8 @@ const Presentation = () => {
   return (
       <div>
         <div className='bg-white mx-10 mt-[-30px] mb-10'>
-          <div className='mx-15' data-aos="fade-up" data-aos-delay="500">
-            <div className='flex justify-center'>
+          <div data-aos="fade-up" data-aos-delay="500">
+            <div className='flex justify-center w-full'>
               <h1 className='font-extrabold text-center text-3xl mt-4 mb-4 text-[var(--primary-green)]'>
                 PRESENTATION DE SANITAS PLUS
               </h1>
@@ -33,8 +33,8 @@ const Presentation = () => {
         </div>
 
          {/* Contexte */}
-         <div className='bg-gray-200 mt-20px'>
-          <div className='mx-15' data-aos="fade-up" data-aos-delay="650">
+         <div className='bg-gray-200 mt-20px w-full'>
+          <div data-aos="fade-up" data-aos-delay="650">
             <div className='flex justify-center'>
               <h1 className='font-extrabold text-center text-3xl mt-4 mb-4 text-[var(--primary-green)]'>
                 CONTEXTE ET JUSTIFICATION
