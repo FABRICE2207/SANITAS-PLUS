@@ -35,13 +35,13 @@ const Equipe = () => {
     <div>
       {/* Contexte */}
       <div className='bg-gray-200 mt-4'>
-        <div className='mx-15' data-aos="fade-up" data-aos-delay="650">
+        <div className='mx-10' data-aos="fade-up" data-aos-delay="650">
           <div className='flex justify-center'>
             <h1 className='font-extrabold text-3xl mt-4 mb-4 text-[var(--primary-green)]'>
               NOTRE EQUIPE
             </h1>
           </div>
-          <div className='text-xl mx-10 mb-5 pb-5'>
+          <div className='text-xl w-full mb-5 pb-5'>
             {/* <div className='flex flex-col justify-center items-center'>
               <div className=''>
                 <Image 
@@ -68,7 +68,7 @@ const Equipe = () => {
             >
               {teamMembers.map((member, index) => (
                 <SwiperSlide key={index}>
-                  <div className="flex flex-col justify-center items-center font-extralight">
+                  <div className="flex flex-col w-full justify-center items-center font-extralight">
                     <div>
                       <Image
                         src={member.image}

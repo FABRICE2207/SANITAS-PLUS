@@ -34,7 +34,7 @@ const Contacts = () => {
        <div className='mt-10'>
          <div className='w-full flex flex-col justify-center items-center'>
           <div className='bg-[var(--primary-green)] w-[70px] h-[5px]'></div>
-          <h2 className='text-2xl font-semibold'>FORMULAIRE DE CONTACT</h2>
+          <h2 className='text-2xl font-semibold text-center'>FORMULAIRE DE CONTACT</h2>
           <div className='bg-[var(--primary-green)] w-[70px] h-[5px]'></div>
          </div>
 

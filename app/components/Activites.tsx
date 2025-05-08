@@ -27,7 +27,7 @@ const Activites = () => {
                   <FaHouseMedical 
                     size={35}
                   />
-                  <h3 className='font-medium text-2xl mt-5'>CONSULTATIONS À DOMICILE </h3>
+                  <h3 className='font-medium text-2xl mt-5 text-center'>CONSULTATIONS À DOMICILE </h3>
 
                   <p className='text-center m-5'>Un médecin déployé par la structure viendra vers vous en fonction de l’endroit désiré pour vous consulter normalement comme si vous étiez dans un centre de soin.</p>
                 </div>
