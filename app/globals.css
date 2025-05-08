@@ -48,3 +48,13 @@
 .swiper-pagination-bullet-active {
   background-color: var(--primary-green); /* Couleur active */
 }
+
+@media (max-width: 1024px) {
+  .text-prin{
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  .text-card{
+    margin-bottom: 45px;
+  }
+}

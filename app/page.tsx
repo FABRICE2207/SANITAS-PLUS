@@ -8,6 +8,7 @@ import "aos/dist/aos.css"; // Importation des styles d'Aos
 import Activites from './components/Activites';
 import Equipe from './components/Equipe';
 import Contacts from './components/Contacts';
+import Context from './components/Context';
 
 export default function Home() {
 
@@ -28,6 +29,9 @@ export default function Home() {
 
       {/* Présentation */}
       <Presentation />
+
+      {/* Contexte */}
+      {/* <Context /> */}
 
       {/* Objectifs */}
       <Objectifs />

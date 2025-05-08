@@ -35,28 +35,28 @@ const Footer = () => {
     
     <div className='mt-10 border-t-2 border-[var(--primary-green)]'>
       <div className='mx-15 my-5'>
-      <div className='flex flex-row justify-between items-start gap-2'>
-        <div>
+      <div className='flex lg:flex-row flex-col justify-between items-start gap-2'>
+        <div className='lg:w-[800px]'>
           <Image 
             src="/assets/logo_sanitas_plus.jpg"
             alt=''
             width={100}
             height={50}
           />
-          <div className='w-[580px] font-extralight text-xl'>
+          <div className='font-extralight text-xl'>
           SANITAS PLUS est une structure professionnelle et organisation sanitaire de proximités. Notre mission est d’être plus proche de la population et surtout notre objectif est de permettre à tout le monde de bénéficier de soin de qualité tout en restant à son domicile ou sur son lieu de travail.
           </div>
         </div>
-        <div className='w-[500px]'>
+        <div className='lg:w-[500px]'>
           <h3 className='font-bold'>
             Liens utiles
           </h3>
           {/* Menu */}
-          <ul className="lg:flex lg:flex-col justify-start items-start">
+          <ul className="flex flex-col justify-start mt-4 items-start">
             {navItems.map(({ link, path }) => (
               <Link
                 key={path}
-                className="text-black uppercase font-semibold cursor-pointer p-1
+                className="text-black uppercase cursor-pointer p-1
                 hover:text-[var(--primary-green)] text-[15px]"
                 href={`#${path}`}
               >
@@ -65,11 +65,11 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className=' w-[600px] lg:flex lg:flex-col justify-start items-start'>
+        <div className='lg:w-[600px] lg:flex lg:flex-col justify-start items-start'>
           <h3 className='font-bold'>
             Contacts
           </h3>
-          <div className='flex flex-col gap-4 font-extralight'>
+          <div className='flex flex-col gap-4 mt-4 font-extralight'>
             <div className='flex flex-row gap-3'>
               <MdEmail size={30}/>
               sanitasplus@gmail.com
@@ -85,6 +85,9 @@ const Footer = () => {
             
           </div>
         </div>
+      </div>
+      <div className='flex justify-center items-center mt-5'>
+        <h4>Copyright © 2025 devéloppé par <Link href="https://www.djilx.ci/" className='font-bold'>DJILX CI</Link></h4>
       </div>
     </div>
     </div>

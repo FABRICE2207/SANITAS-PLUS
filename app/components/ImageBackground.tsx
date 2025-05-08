@@ -30,10 +30,10 @@ const ImageBackground = () => {
        {/* Texte au centre */}
        <div className='relative lg:h-[600px] flex flex-col justify-center items-center text-white'>
          <div data-aos="zoom-in-down" data-aos-delay="300" className='flex flex-col justify-center items-center'>
-           <h1 className='text-[50px] font-extrabold text-center'>SANITAS PLUS, <br />
+           <h1 className='text-[50px] font-extrabold text-center  text-prin'>SANITAS PLUS, <br />
            VOTRE SANTÉ NOTRE PRIORITÉ</h1>
 
-           <div className='bg-[var(--primary-green)] w-[100px] h-[10px]'></div>
+           <div className='bg-[var(--primary-green)] w-[100px] h-[10px] text-card'></div>
          </div>
        </div>
      </div>
