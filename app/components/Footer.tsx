@@ -34,7 +34,7 @@ const Footer = () => {
   return (
     
     <div className='mt-10 border-t-2 border-[var(--primary-green)]'>
-      <div className='mx-15 my-5'>
+      <div className='mx-10 my-5'>
       <div className='flex lg:flex-row flex-col justify-between items-start gap-2'>
         <div className='lg:w-[800px]'>
           <Image 
@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='flex justify-center items-center mt-5'>
-        <h4>Copyright © 2025 devéloppé par <Link href="https://www.djilx.ci/" className='font-bold'>DJILX CI</Link></h4>
+        <h4 className='text-center'>Copyright © 2025 devéloppé par <Link href="https://www.djilx.ci/" className='font-bold'>DJILX CI</Link></h4>
       </div>
     </div>
     </div>
