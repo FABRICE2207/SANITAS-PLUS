@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     title: "SANITAS-PLUS",
-    description: "Association des Scouts Catholique de Côte d'Ivoire",
+    description: "SANITAS PLUS est une structure professionnelle et organisation sanitaire de proximités. Notre mission est d’être plus proche de la population et surtout notre objectif est de permettre à tout le monde de bénéficier de soin de qualité tout en restant à son domicile ou sur son lieu de travail.",
     url: "",
     siteName: "sanitas-plus",
     locale: "fr_FR",
