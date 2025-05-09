@@ -15,13 +15,13 @@ const Equipe = () => {
       name: "Yao Koffi Kévin",
       role: "Biologiste",
       phone: "+225 07 77 49 77 50",
-      image: "/assets/photo_test.png",
+      image: "/assets/homme-test.jpg",
     },
     {
       name: "Yao Koffi Kévin",
       role: "Biologiste",
       phone: "+225 07 77 49 77 50",
-      image: "/assets/photo_test.png",
+      image: "/assets/homme-test.jpg",
     },
   ];
 
