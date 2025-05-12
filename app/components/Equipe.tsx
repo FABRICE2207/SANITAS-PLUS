@@ -10,18 +10,19 @@ import { Navigation, Pagination } from "swiper/modules";
 
 const Equipe = () => {
 
+  // L'equipe
   const teamMembers = [
     {
       name: "Yao Koffi Kévin",
       role: "Biologiste",
       phone: "+225 07 77 49 77 50",
-      image: "/assets/homme-test.jpg",
+      image: "/assets/kevin.png",
     },
     {
       name: "Yao Koffi Kévin",
       role: "Biologiste",
       phone: "+225 07 77 49 77 50",
-      image: "/assets/homme-test.jpg",
+      image: "/assets/kevin.png",
     },
   ];
 

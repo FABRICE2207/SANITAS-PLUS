@@ -69,7 +69,7 @@ const Header = () => {
       >
           <div className="flex gap-1">
             <MdEmail className="mt-1" />
-            sanitasplus@gmail.com
+            Sanitasplus01@gmail.com
           </div>
           <div className="flex gap-1">
             <FaPhoneAlt className="m-1" />

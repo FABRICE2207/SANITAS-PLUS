@@ -72,7 +72,7 @@ const Footer = () => {
           <div className='flex flex-col gap-4 mt-4 font-extralight'>
             <div className='flex flex-row gap-3'>
               <MdEmail size={30}/>
-              sanitasplus@gmail.com
+              Sanitasplus01@gmail.com
             </div>
             <div className='flex flex-row gap-3'>
               <MdPhone size={30}/>
